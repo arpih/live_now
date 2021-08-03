@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/App.scss';
-import counterpart from 'counterpart';
+import counterpart from 'counterpart'; // eslint-disable-line import/no-unresolved
 
 import ViewController from './ViewController';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';

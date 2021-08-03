@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // @ts-ignore
-import Translate from 'react-translate-component';
+import Translate from 'react-translate-component'; // eslint-disable-line import/no-unresolved
 import { ReactComponent as Like } from './images/like.svg';
 import { ReactComponent as ActiveLike } from './images/active-like.svg';
 import { ReactComponent as Dislike } from './images/dislike.svg';

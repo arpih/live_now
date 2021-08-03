@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // @ts-ignore
-import Translate from 'react-translate-component';
+import Translate from 'react-translate-component'; // eslint-disable-line import/no-unresolved
 import { ReactComponent as Photo } from './images/photo.svg';
 import Header from './Header';
 import PhotoShowingModal from './PhotoShowingModal';

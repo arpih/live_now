@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Modal from 'react-modal';
+import Modal from 'react-modal'; // eslint-disable-line import/no-unresolved
 import { ReactComponent as Fail } from './images/fail.svg';
 import { ReactComponent as Success } from './images/success.svg';
 import { addPhoto } from './firebase/firebase.utils';

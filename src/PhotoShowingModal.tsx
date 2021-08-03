@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Modal from 'react-modal';
+import Modal from 'react-modal'; // eslint-disable-line import/no-unresolved
 // @ts-ignore
 import Translate from 'react-translate-component';
 import { ReactComponent as Close } from './images/fail.svg';
